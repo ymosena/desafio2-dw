@@ -3,30 +3,22 @@
     font-family: 'Poppins', sans-serif;
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
 }
 body{
     color: rgb(0, 0, 0);
     background: #f1f1f1;
 }
-img{
-    width: 100%;
-}
-section{
-    padding: 3rem 0 2rem;
-}
+
 a{
     text-decoration: none;
+    color: #f5b030;
 }
 li{
     list-style: none;
 }
 .container{
-    max-width: 960px;
-    margin: auto;
     width: 100%;
+    background-color: #f5b030;
 }
 header{
     position: fixed;
@@ -36,30 +28,95 @@ header{
     z-index: 100;
 }
 .nav{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px 0;
 }
-
+.nav-itens{
+    display: grid;
+    align-items: center;
+}
 .logo{
-    font-size:1.2rem;
+    font-size:1.8rem;
     font-weight:600;
     color: #ffffff;
+    text-align: center 
+}
+.logo a span{
+    color: rgb(82, 82, 82);
 }
 .navbar{
     display: flex;
+    text-align: center;
     align-items: center;
-    column-gap: 1.8rem;
 }
 .nav-link{
     font-size: 1rem;
     padding: 4px 8px;
     border-radius: 0.2rem;
-    color: azure
+    color: azure;
+    text-align: center;
 }
 .nav-link:hover{
     color: azure;
     background:#f3ba51;
     transition: 0.3s all linear;
+}
+
+.post1{
+    background-color: white;
+    width: 38%;
+    height: 10%;
+    padding: 35px;
+    margin-top: -20.5%;
+    margin-left: 28%;
+}
+.post1 h2{
+    color: #f5b030;
+}
+.post1 .img{
+    width: 100px;
+    height: 100px;
+    z-index: 200;
+}
+.post2{
+    background-color: white;
+    width: 38%;
+    height: 10%;
+    padding: 35px;
+    margin-top: 1%;
+    margin-left: 28%;
+}
+.post2 h2{
+    color: #f5b030;
+}
+.post2 .img{
+    width: 100px;
+    height: 100px;
+    z-index: 200;
+}
+.postagens{
+    background-color: white;
+    width: 13%;
+    height: 8%;
+    padding: 10px;
+    margin-top: 7.6%;
+    margin-left: 71%;
+}
+.postagens h4{
+    background-color: rgb(207, 222, 238);
+    color: black;
+}
+.categoria{
+    background-color: white;
+    width: 13%;
+    height: 8%;
+    padding: 10px;
+    margin-left: 71%;
+}
+.categoria h4{
+    background-color: rgb(207, 222, 238);
+    color: black;
+}
+.categoria .links{
+    display: grid;
 }
